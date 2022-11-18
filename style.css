@@ -11,6 +11,8 @@ body{
     padding: o;
     margin: 0;
     text-align: center;
+  position: fixed;
+  z-index: 1;
 }
 
 .navbar li{
@@ -25,21 +27,25 @@ display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+
 }
 .navbar a:hover{
     background: orange;
+   
 }
 .menu{
     position: relative;
    width: 600px;
    margin-left: 400px;
    border-radius: 15%;
+   
 }
 
   .file{
     display: block;
     position: relative;
     text-align: center;
+    top: 100px;
   }
   .pic1{
     position: relative;
@@ -85,7 +91,7 @@ display: inline-block;
 
   input[type=text]{
 
-    width: 50%;
+    width: 10%;
     padding: 12px;
     border: 2px solid red;
     border-radius: 4px;
@@ -106,7 +112,6 @@ display: inline-block;
     display: block;
     position: relative;
     left: 601px;
-    margin-bottom: 100px;
-    
-
+    margin-bottom: 200px;
   }
+  
