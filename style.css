@@ -8,9 +8,9 @@ body{
 .navbar ul{
     list-style: none;
     background: #663366 ;
-    padding: o;
+    padding: 0;
     margin: 0;
-    text-align: center;
+   margin-left: 100px;
   position: fixed;
   z-index: 1;
 }
@@ -100,7 +100,7 @@ display: inline-block;
 
   }
 
-  input[type=send] {
+  input[type=button] {
     background-color: #04AA6D;
     color: white;
     font-size: large;
@@ -111,7 +111,18 @@ display: inline-block;
     cursor: pointer;
     display: block;
     position: relative;
-    left: 601px;
-    margin-bottom: 200px;
+    left: 700px;
+    margin-bottom: 100px;
+    width: 90px;
+  }
+
+  input[type=email]{
+    width: 10%;
+    padding: 12px;
+    border: 2px solid red;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+
   }
   
